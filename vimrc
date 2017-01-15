@@ -1,3 +1,6 @@
+" autoload plugins
+execute pathogen#infect()
+
 " syntax highlighting by filetype
 filetype on
 syntax on
