@@ -37,6 +37,15 @@ set showmatch
 
 " key bindings
 let mapleader=","
+imap kj <Esc>
+map <leader>m :NERDTreeToggle<CR>
+
+" nerdtree: open when launched with a directory, or no files
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
 " auto reload changes to vimrc
 augroup myvimrc
