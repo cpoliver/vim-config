@@ -23,10 +23,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 " highlight in search, cancel with esc
 set hlsearch
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> <esc> :nohlsearch<Bar>:echo<CR>
 
 " toggle last file with leader double tab
-nnoremap <Leader><Leader> :e#<CR>
+nnoremap <leader>. :e#<CR>
 
 " visual settings
 colorscheme sialoquent
@@ -37,7 +37,10 @@ set showmatch
 
 " key bindings
 let mapleader=","
-imap kj <Esc>
+imap kj <esc>
+
+" command-t
+"map <leader><leader>
 
 " nerdtree
 nmap <leader>m :NERDTreeToggle<CR>
