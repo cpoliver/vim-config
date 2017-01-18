@@ -34,13 +34,11 @@ set colorcolumn=90
 set number
 set showcmd
 set showmatch
+let g:gitgutter_sign_column_always=1
 
 " key bindings
 let mapleader=","
 imap kj <esc>
-
-" command-t
-"map <leader><leader>
 
 " nerdtree
 nmap <leader>m :NERDTreeToggle<CR>

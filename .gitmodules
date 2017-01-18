@@ -13,3 +13,6 @@
 [submodule "bundle/lightline"]
 	path = bundle/lightline
 	url = git@github.com:itchyny/lightline.vim
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
