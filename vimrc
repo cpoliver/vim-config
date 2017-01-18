@@ -38,7 +38,12 @@ set showmatch
 " key bindings
 let mapleader=","
 imap kj <Esc>
-map <leader>m :NERDTreeToggle<CR>
+
+" nerdtree
+nmap <leader>m :NERDTreeToggle<CR>
+nmap <leader>j :NERDTreeFind<CR>
+let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp', '\.swo']
 
 " nerdtree: open when launched with a directory, or no files
 autocmd StdinReadPre * let s:std_in=1
