@@ -32,6 +32,7 @@ nnoremap <leader>. :e#<CR>
 colorscheme sialoquent
 set colorcolumn=90
 set number
+set relativenumber
 set showcmd
 set showmatch
 let g:gitgutter_sign_column_always=1
