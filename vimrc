@@ -1,6 +1,9 @@
 " autoload plugins
 execute pathogen#infect()
 
+" default buffer copies to clipboard
+set clipboard=unnamed
+
 " syntax highlighting by filetype
 filetype on
 syntax on
