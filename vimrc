@@ -32,6 +32,7 @@ nnoremap <silent> <esc> :nohlsearch<Bar>:echo<CR>
 nnoremap <leader>. :e#<CR>
 
 " visual settings
+set background=dark
 colorscheme sialoquent
 set colorcolumn=90
 set number
