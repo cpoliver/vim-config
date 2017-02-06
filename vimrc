@@ -1,6 +1,9 @@
 " autoload plugins
 execute pathogen#infect()
 
+" load arpeggio
+execute arpeggio#load()
+
 " default buffer copies to clipboard
 set clipboard=unnamed
 
@@ -43,8 +46,9 @@ let g:gitgutter_sign_column_always=1
 
 " key bindings
 let mapleader=","
-imap kj <esc>
-xnoremap kj <esc>
+
+Arpeggio imap kj <esc>
+Arpeggio xnoremap kj <esc>
 
 " nerdtree
 nmap <leader>m :NERDTreeToggle<CR>
