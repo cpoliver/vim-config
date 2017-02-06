@@ -28,7 +28,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 set hlsearch
 nnoremap <silent> <esc> :nohlsearch<Bar>:echo<CR>
 
-" toggle last file with leader double tab
+" toggle last file with leader double tap
 nnoremap <leader>. :e#<CR>
 
 " visual settings
