@@ -44,6 +44,7 @@ let g:gitgutter_sign_column_always=1
 " key bindings
 let mapleader=","
 imap kj <esc>
+xnoremap kj <esc>
 
 " nerdtree
 nmap <leader>m :NERDTreeToggle<CR>
