@@ -37,7 +37,7 @@ nnoremap <leader>. :e#<CR>
 " visual settings
 set background=dark
 colorscheme sialoquent
-set colorcolumn=90
+set colorcolumn=120
 set number
 set relativenumber
 set showcmd
