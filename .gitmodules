@@ -52,3 +52,12 @@
 [submodule "bundle/vim-arpeggio"]
 	path = bundle/vim-arpeggio
 	url = git@github.com:kana/vim-arpeggio.git
+[submodule "bundle/vim-flow"]
+	path = bundle/vim-flow
+	url = git@github.com:flowtype/vim-flow
+[submodule "bundle/vim-buffergator"]
+	path = bundle/vim-buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
